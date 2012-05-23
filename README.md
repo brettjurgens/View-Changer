@@ -10,9 +10,9 @@ Instructions
 In your HTML, give your first "view" the class "current" and assign all views the attribute "number", in order of their appearance.
 
 i.e.
-	<div id="blah" class="current" number="1">
-		BLAH
-	</div>
+<pre><code>&lt;div id="blah" class="current" number="1"&gt;
+	BLAH
+&lt;/div&gt;</code></pre>
 
 Then, run compile it, with the -b switch!
 	<pre><code>$ coffee -c -b view_change.coffee</code></pre>
